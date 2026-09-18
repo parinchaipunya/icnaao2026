@@ -121,3 +121,18 @@ footer {
     padding: 1rem;
     margin: 1rem 0;
 }
+
+.speaker-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    padding-left: 0;
+    list-style: none;
+}
+
+.speaker-list li {
+    padding: 1rem;
+    background-color: var(--bg-light);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+}
